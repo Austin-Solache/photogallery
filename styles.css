@@ -1,5 +1,6 @@
 html{
-    background-color: black;
+    background-color: #000000;
+    border: #ffffff solid 25px;  
 }
 p {
     font-size: 1.25em;
@@ -7,14 +8,32 @@ p {
 figcaption, label, input, small {
     font-size: 1em;
 }
-nav a {
-    font-size: 1.5em;
-}
 h1 {
     font-size: 3em;
     color: #007d7b;
+    text-align: center;
+    background-color: #ffffff;
 }
 h2 {
     font-size: 2em;
+    text-align: center;
+}
+nav {
+    background-color: #000000;
+    color: #ffffff;
+}
+nav a {
+    font-size: 1.5em;
+}
+body {
+    background-color: #ffffff;
+    border: #000000 solid 60px;
+}
+footer {
+    color: #ffffff;
+    background-color: #000000;
+}
+.contact {
+    background-color: #000000;
     color: #ffffff;
 }
