@@ -59,6 +59,10 @@ img {
     height: 100%;
     bottom: 35px;
 }
+.contact p {
+    text-align: center;
+    font-size: 135%;
+}
 .contact {
     background-color: #000000;
     color: #ffffff;
@@ -66,25 +70,48 @@ img {
 }
 button {
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     display: grid;
     margin: 0 auto;
-    padding: 8px 30px 10px; 
-    width: 60%;
+    padding: 12px 30px 10px; 
+    width: 75%;
     background-color: #007d7b;
     color: #ffffff;
     height: 50px;
     border-radius: 20px;
 }
+form {
+    text-align: left;
+    font-weight: bold;
+    display: grid;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+label{
+    margin-bottom: -15px;
+    font-size: 20px;
+}
+.text-box {
+    width: 80%;
+    color: #007d7b;
+    font-weight: bold;
+    padding: 10px;
+}
+.text-box::placeholder {
+    color: #007d7b;
+    font-size: 15px;
+    font-weight:790;
+}
 footer {
-    margin-top: -26px;
+    margin-top: -27px;
     margin-bottom: 25;
 }
 footer h2 {
     background-color: #000000;
-    margin-bottom: -35px;
+    margin-bottom: -36px;
     font-weight: 500;
+    font-size: 17px;
 }
 figure:nth-of-type(even) .caption {
     bottom: 95%;
