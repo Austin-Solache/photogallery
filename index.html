@@ -10,20 +10,21 @@
     <h1>TK Photography</h1>
   </header>
   <nav>
-    <h2>
-        About
-        Gallery
-        Contact
-        top
-    </h2>
+      <a href="">ABOUT</a>
+      <a href="">GALLERY</a>
+      <a href="">CONTACT</a>
    </nav>
+   <button class="top" onclick="window.scrollTo({ top: 0, behavior: 'smooth' });">Top</button>
   <body>
     <h2>About</h2>
-    Hello! 
+    <p>Hello!</p>
+    
+    <p> 
     I’m TK and I’m a photographer. I love looking at life through the lens of my camera. 
     Landscape photography is my speciality and it’s taken me all over the world. 
+    </p>
     <h2>Gallery</h2>
-    Here are some highlights of my work. The locations and year are in the caption.<br>
+    <p>Here are some highlights of my work. The locations and year are in the caption.</p><br>
     <div class="images">
       <figure>  
         <img src="images/Chile.png" alt="">
@@ -35,7 +36,7 @@
       </figure>
       <figure>
         <img src="images/Hawaii.png" alt="">
-        <figcaption class="caption">Hawaii, 2010</figcaption>
+        <figcaption title="Hawaii" class="caption">Hawaii, 2010</figcaption>
       </figure>
       <figure>
         <img src="images/Iran.png" alt="">
@@ -84,7 +85,7 @@
           <input type="text" id="email" class="text-box" placeholder="ENTER YOUR EMAIL ADDRESS"><br>
           <label>MESSAGE</label><br>
           <input type="text" id="message" class="text-box" placeholder="WHAT CAN I HELP YOU WITH?"><br>
-          <button type="submit">SUBMIT</button>
+          <button class="submit" type="submit">SUBMIT</button>
         </form>
     </div>
   </body>
