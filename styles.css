@@ -12,6 +12,7 @@ p {
     font-size: 1.25em;
     font-weight: 600;
     padding-left: 10px;
+    padding-right: 10px;
 }
 figcaption, label, input, small {
     font-size: 1em;
@@ -73,13 +74,10 @@ body > h2 {
     height: 75px;
     background-color: #000000;
 }
-.images {
-    justify-items:center;
-    justify-content: center;
-}
+
 img {
     width: 100%;
-    top: 100px;
+    margin-top: -20px;
 }
 .caption  {
     position: relative;
@@ -149,9 +147,6 @@ footer h2 {
     font-weight: 500;
     font-size: 17px;
 }
-figure:nth-of-type(even) .caption {
-    bottom: 90%;
-}
 [title="Iran"] , [title="Rocky"] , [title="UK"] {
     color: #000000;
 }
@@ -167,7 +162,6 @@ figure:nth-of-type(even) .caption {
     .images {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
     }
     figure {
        width: 95%;
@@ -200,5 +194,9 @@ figure:nth-of-type(even) .caption {
     }
     .text-box {
         width: 800px;
+    }
+    img {
+        width: 100%;
+
     }
 }
