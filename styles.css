@@ -74,13 +74,12 @@ body > h2 {
     background-color: #000000;
 }
 .images {
-    display: grid;
     justify-items:center;
     justify-content: center;
-    width: 100%;
 }
 img {
     width: 100%;
+    top: 100px;
 }
 .caption  {
     position: relative;
@@ -124,9 +123,13 @@ label{
     margin-bottom: -15px;
     font-size: 1em;
 }
+form {
+    justify-content: center;
+}
 .text-box {
+    justify-content: center;
     font-size: 1em;
-    width: 80%;
+    width: 400px;
     color: #007d7b;
     font-weight: bold;
     padding: 10px;
@@ -153,21 +156,34 @@ figure:nth-of-type(even) .caption {
     color: #000000;
 }
 [title="Ireland"] , [title="Switzerland"] , [title="USA"]{
-    bottom: 100%;
+    bottom: 85%;
     color: #000000;
 }
 [title="Italy"]{
     color: #000000;
-    top: -10%;
+    top: -5%;
 }
 @media screen and (min-width: 880px){
     .images {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px;
+        gap: 10px;
+    }
+    figure {
+       width: 95%;
+       margin: 10px;
     }
     [title="Hawaii"] {
         height: 100px;
+    }
+    [title="Ireland"] {
+        bottom: 90%;
+    }
+    h1 {
+        text-align: left;
+    }
+    .text-box {
+        width: 600px;
     }
 }
 @media screen and (min-width: 1300px){
@@ -177,6 +193,12 @@ figure:nth-of-type(even) .caption {
         grid-gap: 10px;
     }
     figure:nth-of-type(even) .caption {
-        bottom: 65%;
+        bottom: 60%;
+    }
+    nav {
+        text-align: right;
+    }
+    .text-box {
+        width: 800px;
     }
 }
